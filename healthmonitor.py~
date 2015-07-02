@@ -18,7 +18,7 @@ def get_targeturls():
 		return curr_target_urls
 	except Exception,e:
 		print e
-		print "Error: Please Start OWTF script!"
+		print "Error: Please Start OWTF script!\n"
 		sys.exit(0)
 #Initialisations
 i=0
